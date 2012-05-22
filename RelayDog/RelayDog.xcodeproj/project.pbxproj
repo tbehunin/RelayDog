@@ -16,7 +16,6 @@
 		910546D5156B169800E69327 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D4156B169800E69327 /* MyView.xib */; };
 		910546D7156B16B200E69327 /* MyEmpty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D6156B16B200E69327 /* MyEmpty.xib */; };
 		910546D9156B1B8100E69327 /* MyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D8156B1B8100E69327 /* MyWindow.xib */; };
-		910546DB156B1BB800E69327 /* MyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910546DA156B1BB800E69327 /* MyStoryboard.storyboard */; };
 		910546DD156B1BD800E69327 /* MyApplication.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546DC156B1BD800E69327 /* MyApplication.xib */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		910546D4156B169800E69327 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 		910546D6156B16B200E69327 /* MyEmpty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEmpty.xib; sourceTree = "<group>"; };
 		910546D8156B1B8100E69327 /* MyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindow.xib; sourceTree = "<group>"; };
-		910546DA156B1BB800E69327 /* MyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyStoryboard.storyboard; sourceTree = "<group>"; };
 		910546DC156B1BD800E69327 /* MyApplication.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyApplication.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				910546D6156B16B200E69327 /* MyEmpty.xib */,
-				910546DA156B1BB800E69327 /* MyStoryboard.storyboard */,
 				910546D4156B169800E69327 /* MyView.xib */,
 				910546D8156B1B8100E69327 /* MyWindow.xib */,
 				910546DC156B1BD800E69327 /* MyApplication.xib */,
@@ -167,7 +164,6 @@
 				910546D5156B169800E69327 /* MyView.xib in Resources */,
 				910546D7156B16B200E69327 /* MyEmpty.xib in Resources */,
 				910546D9156B1B8100E69327 /* MyWindow.xib in Resources */,
-				910546DB156B1BB800E69327 /* MyStoryboard.storyboard in Resources */,
 				910546DD156B1BD800E69327 /* MyApplication.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +280,7 @@
 				910546D2156B157500E69327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
