@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910546BD156B157500E69327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910546BC156B157500E69327 /* UIKit.framework */; };
+		910546BF156B157500E69327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910546BE156B157500E69327 /* Foundation.framework */; };
+		910546C1156B157500E69327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910546C0156B157500E69327 /* CoreGraphics.framework */; };
+		910546C7156B157500E69327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910546C5156B157500E69327 /* InfoPlist.strings */; };
+		910546C9156B157500E69327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910546C8156B157500E69327 /* main.m */; };
+		910546CD156B157500E69327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910546CC156B157500E69327 /* AppDelegate.m */; };
+		910546D5156B169800E69327 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D4156B169800E69327 /* MyView.xib */; };
+		910546D7156B16B200E69327 /* MyEmpty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D6156B16B200E69327 /* MyEmpty.xib */; };
+		910546D9156B1B8100E69327 /* MyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D8156B1B8100E69327 /* MyWindow.xib */; };
+		910546DB156B1BB800E69327 /* MyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910546DA156B1BB800E69327 /* MyStoryboard.storyboard */; };
+		910546DD156B1BD800E69327 /* MyApplication.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546DC156B1BD800E69327 /* MyApplication.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		910546B8156B157500E69327 /* RelayDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelayDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910546BC156B157500E69327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		910546BE156B157500E69327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		910546C0156B157500E69327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		910546C4156B157500E69327 /* RelayDog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelayDog-Info.plist"; sourceTree = "<group>"; };
+		910546C6156B157500E69327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		910546C8156B157500E69327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910546CA156B157500E69327 /* RelayDog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelayDog-Prefix.pch"; sourceTree = "<group>"; };
+		910546CB156B157500E69327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		910546CC156B157500E69327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		910546D4156B169800E69327 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		910546D6156B16B200E69327 /* MyEmpty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEmpty.xib; sourceTree = "<group>"; };
+		910546D8156B1B8100E69327 /* MyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindow.xib; sourceTree = "<group>"; };
+		910546DA156B1BB800E69327 /* MyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyStoryboard.storyboard; sourceTree = "<group>"; };
+		910546DC156B1BD800E69327 /* MyApplication.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyApplication.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910546B5156B157500E69327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910546BD156B157500E69327 /* UIKit.framework in Frameworks */,
+				910546BF156B157500E69327 /* Foundation.framework in Frameworks */,
+				910546C1156B157500E69327 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910546AD156B157500E69327 = {
+			isa = PBXGroup;
+			children = (
+				910546D3156B160B00E69327 /* Nibs */,
+				910546C2156B157500E69327 /* RelayDog */,
+				910546BB156B157500E69327 /* Frameworks */,
+				910546B9156B157500E69327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910546B9156B157500E69327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910546B8156B157500E69327 /* RelayDog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910546BB156B157500E69327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910546BC156B157500E69327 /* UIKit.framework */,
+				910546BE156B157500E69327 /* Foundation.framework */,
+				910546C0156B157500E69327 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910546C2156B157500E69327 /* RelayDog */ = {
+			isa = PBXGroup;
+			children = (
+				910546CB156B157500E69327 /* AppDelegate.h */,
+				910546CC156B157500E69327 /* AppDelegate.m */,
+				910546C3156B157500E69327 /* Supporting Files */,
+			);
+			path = RelayDog;
+			sourceTree = "<group>";
+		};
+		910546C3156B157500E69327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910546C4156B157500E69327 /* RelayDog-Info.plist */,
+				910546C5156B157500E69327 /* InfoPlist.strings */,
+				910546C8156B157500E69327 /* main.m */,
+				910546CA156B157500E69327 /* RelayDog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		910546D3156B160B00E69327 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				910546D6156B16B200E69327 /* MyEmpty.xib */,
+				910546DA156B1BB800E69327 /* MyStoryboard.storyboard */,
+				910546D4156B169800E69327 /* MyView.xib */,
+				910546D8156B1B8100E69327 /* MyWindow.xib */,
+				910546DC156B1BD800E69327 /* MyApplication.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910546B7156B157500E69327 /* RelayDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910546D0156B157500E69327 /* Build configuration list for PBXNativeTarget "RelayDog" */;
+			buildPhases = (
+				910546B4156B157500E69327 /* Sources */,
+				910546B5156B157500E69327 /* Frameworks */,
+				910546B6156B157500E69327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelayDog;
+			productName = RelayDog;
+			productReference = 910546B8156B157500E69327 /* RelayDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910546AF156B157500E69327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 910546B2156B157500E69327 /* Build configuration list for PBXProject "RelayDog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 910546AD156B157500E69327;
+			productRefGroup = 910546B9156B157500E69327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910546B7156B157500E69327 /* RelayDog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910546B6156B157500E69327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910546C7156B157500E69327 /* InfoPlist.strings in Resources */,
+				910546D5156B169800E69327 /* MyView.xib in Resources */,
+				910546D7156B16B200E69327 /* MyEmpty.xib in Resources */,
+				910546D9156B1B8100E69327 /* MyWindow.xib in Resources */,
+				910546DB156B1BB800E69327 /* MyStoryboard.storyboard in Resources */,
+				910546DD156B1BD800E69327 /* MyApplication.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910546B4156B157500E69327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910546C9156B157500E69327 /* main.m in Sources */,
+				910546CD156B157500E69327 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		910546C5156B157500E69327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910546C6156B157500E69327 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910546CE156B157500E69327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910546CF156B157500E69327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910546D1156B157500E69327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelayDog/RelayDog-Prefix.pch";
+				INFOPLIST_FILE = "RelayDog/RelayDog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		910546D2156B157500E69327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelayDog/RelayDog-Prefix.pch";
+				INFOPLIST_FILE = "RelayDog/RelayDog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910546B2156B157500E69327 /* Build configuration list for PBXProject "RelayDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910546CE156B157500E69327 /* Debug */,
+				910546CF156B157500E69327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910546D0156B157500E69327 /* Build configuration list for PBXNativeTarget "RelayDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910546D1156B157500E69327 /* Debug */,
+				910546D2156B157500E69327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910546AF156B157500E69327 /* Project object */;
+}
