@@ -13,10 +13,6 @@
 		910546C7156B157500E69327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910546C5156B157500E69327 /* InfoPlist.strings */; };
 		910546C9156B157500E69327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910546C8156B157500E69327 /* main.m */; };
 		910546CD156B157500E69327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910546CC156B157500E69327 /* AppDelegate.m */; };
-		910546D5156B169800E69327 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D4156B169800E69327 /* MyView.xib */; };
-		910546D7156B16B200E69327 /* MyEmpty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D6156B16B200E69327 /* MyEmpty.xib */; };
-		910546D9156B1B8100E69327 /* MyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546D8156B1B8100E69327 /* MyWindow.xib */; };
-		910546DD156B1BD800E69327 /* MyApplication.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910546DC156B1BD800E69327 /* MyApplication.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +26,6 @@
 		910546CA156B157500E69327 /* RelayDog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelayDog-Prefix.pch"; sourceTree = "<group>"; };
 		910546CB156B157500E69327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		910546CC156B157500E69327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		910546D4156B169800E69327 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
-		910546D6156B16B200E69327 /* MyEmpty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEmpty.xib; sourceTree = "<group>"; };
-		910546D8156B1B8100E69327 /* MyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindow.xib; sourceTree = "<group>"; };
-		910546DC156B1BD800E69327 /* MyApplication.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyApplication.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +45,6 @@
 		910546AD156B157500E69327 = {
 			isa = PBXGroup;
 			children = (
-				910546D3156B160B00E69327 /* Nibs */,
 				910546C2156B157500E69327 /* RelayDog */,
 				910546BB156B157500E69327 /* Frameworks */,
 				910546B9156B157500E69327 /* Products */,
@@ -97,17 +88,6 @@
 				910546CA156B157500E69327 /* RelayDog-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		910546D3156B160B00E69327 /* Nibs */ = {
-			isa = PBXGroup;
-			children = (
-				910546D6156B16B200E69327 /* MyEmpty.xib */,
-				910546D4156B169800E69327 /* MyView.xib */,
-				910546D8156B1B8100E69327 /* MyWindow.xib */,
-				910546DC156B1BD800E69327 /* MyApplication.xib */,
-			);
-			name = Nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				910546C7156B157500E69327 /* InfoPlist.strings in Resources */,
-				910546D5156B169800E69327 /* MyView.xib in Resources */,
-				910546D7156B16B200E69327 /* MyEmpty.xib in Resources */,
-				910546D9156B1B8100E69327 /* MyWindow.xib in Resources */,
-				910546DD156B1BD800E69327 /* MyApplication.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
